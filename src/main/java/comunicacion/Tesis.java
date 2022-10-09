@@ -25,8 +25,8 @@ public class Tesis extends Escrito{
     }
     @Override
     public String toString(){
-        String args = String.valueOf(this.getArgumentos().length);
-        return args;
+        String tos = getOrigen()+"\n"+  getTitulo()+"\n"+  getAutor()+"\n"+ getPaginas()+"\n"+ getIdea()+"\n"+ getArgumentos().length+"\n"+ getConclusion()+"\n"+ getReferencias();
+        return tos;
 
     }
 
