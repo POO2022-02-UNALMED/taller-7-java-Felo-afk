@@ -19,7 +19,7 @@ public class Libro extends Escrito{
     }
     @Override
     public String interpretacion(){
-        return this.interpretacion
+        return this.interpretacion;
     }
     @Override
     public String toString(){
