@@ -19,11 +19,12 @@ public class Libro extends Escrito{
     }
     @Override
     public String interpretacion(){
-        return this.interpretacion
+        return this.interpretacion;
     }
     @Override
     public String toString(){
         String tos= getOrigen()+"\n"+  getTitulo()+"\n"+  getAutor()+"\n"+ getPaginas()+"\n"+ getCo_autor()+"\n"+getEditorial()+"\n"+getEdicion();
+        return tos;
     }
 
     public String getCo_autor() {
